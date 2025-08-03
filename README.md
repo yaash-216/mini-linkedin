@@ -60,4 +60,3 @@ Both backend and frontend use `.env` files for configuration. Do not commit secr
   - `pnpm run dev` — Start development server  
   - `pnpm run build` — Build for production  
   - `pnpm run preview` — Preview production build
-
