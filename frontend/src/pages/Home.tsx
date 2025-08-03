@@ -1,10 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import API from "../utils/api";
 import { AuthContext } from "../context/AuthContext";
-import { Link } from "react-router";
 import type { AuthContextType, Post } from "../types";
-import Profilepic from "../components/Profilepic";
-import { ArrowUp, MessageCircle } from "lucide-react";
 import Posts from "../components/Posts";
 function Home() {
   const auth = useContext<AuthContextType | null>(AuthContext);
